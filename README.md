@@ -42,11 +42,11 @@ http://localhost:3000/auth/google/callback
 ### 4. Configure `.env`
 
 ```bash
-GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_secret
-EMAIL_USER=your@gmail.com
-EMAIL_PASS=your_app_password
-SESSION_SECRET=your_strong_secret
+GOOGLE_CLIENT_ID=YOUR_ID_HERE
+GOOGLE_CLIENT_SECRET=YOUR_SECRET_HERE
+SESSION_SECRET=ANY_COMPLEX_CHARACTERS_YOU_WANT
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=PASSWORD
 BASE_URL=http://localhost:3000
 ```
 
